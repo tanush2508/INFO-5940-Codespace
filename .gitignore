@@ -1,0 +1,116 @@
+# Compiled Python files and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled shared objects (C extensions)
+*.so
+
+# Build and packaging folders
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+__pypackages__/
+
+# Virtual environment folders
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# Pip installation logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test and coverage results
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook auto-saves and checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IPython config and history
+profile_default/
+ipython_config.py
+
+# pyenv version file
+.python-version
+
+# PyCharm settings and project files
+.idea/
+*.iml
+
+# VS Code settings and local history
+.vscode/
+.history/
+
+# Devcontainer environment files for Codespaces
+.devcontainer/devcontainer.env
+.devcontainer/**.env
+
+# System-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files and local databases
+*.log
+logs/
+*.sql
+*.sqlite3
+
+# Environment and key files (keep private!)
+.env
+.env.*
+secrets.yaml
+secrets.yml
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+.netrc
+*.p12
+*.jks
+
+# Private credentials and tokens
+*credentials*
+*secret*
+*_private.*
+
+# Notebook output folders or rendered HTML versions
+output/
+*.nb.html
+
+# Temporary or backup files
+*.tmp
+*.temp
+~*
+
+# macOS hidden files
+.Spotlight-V100
+.Trashes
+
+# Windows thumbnail cache
+ehthumbs.db
+
+
+
+
+# Cache and build output directories
+.cache
+build/
+
+# Miscellaneous
+tags
+
+# Important note:
+# Don’t ignore your actual project data (like files in /data).
+# If needed, use a separate .gitignore inside those folders.
